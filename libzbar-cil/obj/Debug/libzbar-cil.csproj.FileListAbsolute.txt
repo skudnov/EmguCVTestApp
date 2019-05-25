@@ -1,0 +1,11 @@
+C:\Users\Vindicar\Desktop\EmguCVTestApp\libzbar-cil\bin\Debug\libzbar-cil.dll
+C:\Users\Vindicar\Desktop\EmguCVTestApp\libzbar-cil\bin\Debug\libzbar-cil.pdb
+C:\Users\Vindicar\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.csproj.CoreCompileInputs.cache
+C:\Users\Vindicar\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.dll
+C:\Users\Vindicar\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.pdb
+C:\Users\Andrey\Desktop\EmguCVTestApp\libzbar-cil\bin\Debug\libzbar-cil.dll
+C:\Users\Andrey\Desktop\EmguCVTestApp\libzbar-cil\bin\Debug\libzbar-cil.pdb
+C:\Users\Andrey\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.csprojAssemblyReference.cache
+C:\Users\Andrey\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.dll
+C:\Users\Andrey\Desktop\EmguCVTestApp\libzbar-cil\obj\Debug\libzbar-cil.pdb
