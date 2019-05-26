@@ -27,6 +27,9 @@ namespace EmguCVTestApp
         /// </summary>
         FrameProcessor Proc = null;
 
+        int countQR = 0;
+        int countAruco = 0;
+
         public ViewForm()
         {
             InitializeComponent();
@@ -56,6 +59,21 @@ namespace EmguCVTestApp
             if ((Camera != null) && Camera.Grab() && Camera.Retrieve(Frame.Mat))
             {
                 FrameResult fr = Proc.ProcessFrame(Frame.Clone()); //обрабатываем кадр
+                if (fr.QRLocation != null)
+                {
+                    lb_qr.Visible = true;
+                    countQR += 1;
+                    lb_qr.Text = ("QR found:  " + countQR + "times");
+                }
+
+                if (fr.ArucoLocation!= null)
+                {
+                    lb_aruco.Visible = true;
+                    countAruco += 1;
+                    lb_aruco.Text = ("Aruco found:  " + countAruco + "times");
+                }
+
+
                 // и просто показываем результат
                 ViewBox.Image = fr.Visual;
                 this.Text = "Data: "+fr.Commentary;
@@ -92,6 +110,7 @@ namespace EmguCVTestApp
                 Camera.SetCaptureProperty(Emgu.CV.CvEnum.CapProp.FrameWidth, FrameWidth);
                 Camera.SetCaptureProperty(Emgu.CV.CvEnum.CapProp.FrameHeight, FrameHeight);
                 Proc = new FrameProcessor();
+                
             }
             catch (Exception err)
             {
